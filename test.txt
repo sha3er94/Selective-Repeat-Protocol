@@ -1,0 +1,191 @@
+INSERT INTO Department(dept_id,dept_name) VALUES (10,'Chemistry');
+INSERT INTO Department(dept_id,dept_name) VALUES (11,'Computer Science');
+INSERT INTO Department(dept_id,dept_name) VALUES (12,'Civil');
+INSERT INTO Department(dept_id,dept_name)VALUES (20,'Arts');
+INSERT INTO Department(dept_id,dept_name)VALUES (33,'Electronics');
+INSERT INTO Department(dept_id,dept_name)VALUES (68,'Mechanics');
+
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (142519864, 'Ivana Teach', 20);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (242518965, 'James Smith', 68);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (141582651, 'Mary Johnson', 20);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (11564812, 'John Williams', 68);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (254099823, 'Patricia Jones', 68);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (999859885, 'Steven Adams', 68);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (356187925, 'Robert Brown', 12);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (489456522, 'Linda Davis', 20);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (287321212, 'Michael Miller', 12);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (248965255, 'Barbara Wilson', 12);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (159542516, 'William Moore', 33);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (522850455, 'Samy Johns', 68);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (90873519, 'Elizabeth Taylor', 11);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (486512566, 'David Anderson', 20);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (619023588, 'Jennifer Thomas', 11);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (489221823, 'Richard Jackson', 33);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (548977562, 'Ulysses Teach', 20);
+INSERT INTO Professor(prof_id,prof_name,dept_id) VALUES (758845252, 'Chris williams', 20);
+
+INSERT INTO student (student_id,student_name,major,level,age) VALUES (51135593, 'Maria White', 'English', 'SR', 21);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (60839453, 'Charles Harris', 'Architecture', 'SR', 22);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (99354543, 'Susan Martin', 'Law', 'JR', 20);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (112348546, 'Joseph Thompson', 'Computer Science', 'SO', 19);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (115987938, 'Christopher Garcia', 'Computer Science', 'JR', 20);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (132977562, 'Angela Martinez', 'History', 'SR', 20);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (269734834, 'Thomas Robinson', 'Psychology', 'SO', 18);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (280158572, 'Margaret Clark', 'Animal Science', 'FR', 18);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (301221823, 'Juan Rodriguez', 'Psychology', 'JR', 20);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (318548912, 'Dorthy Lewis', 'Finance', 'FR', 18);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (320874981, 'Daniel Lee', 'Electrical Engineering', 'FR', 17);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (322654189, 'Lisa Walker', 'Computer Science', 'SO', 17);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (348121549, 'Paul Hall', 'Computer Science', 'JR', 18);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (351565322, 'Nancy Allen', 'Accounting', 'JR', 19);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (451519864, 'Mark Young', 'Finance', 'FR', 18);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (455798411, 'Luis Hernandez', 'Electrical Engineering', 'FR', 17);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (462156489, 'Donald King', 'Mechanical Engineering', 'SO', 19);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (550156548, 'George Wright', 'Education', 'SR', 21);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (552455318, 'Ana Lopez', 'Computer Engineering', 'SR', 19);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (556784565, 'Kenneth Hill', 'Civil Engineering', 'SR', 21);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (567354612, 'Karen Scott', 'Computer Engineering', 'FR', 18);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (573284895, 'Steven Green', 'Kinesiology', 'SO', 19);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (574489456, 'Betty Adams', 'Economics', 'JR', 20);
+INSERT INTO student (student_id,student_name,major,level,age)VALUES (578875478, 'Edward Baker', 'Veterinary Medicine', 'SR', 21);
+
+INSERT INTO class (name,meets_at,room,prof_id)VALUES ('Data Structures', 'MWF 10', 'R128', 489456522);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Database Systems', 'MWF 12:30-1:45', '1320 DCL', 142519864);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Operating System Design', 'TuTh 12-1:20', '20 AVW', 489456522);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Archaeology of the Incas', 'MWF 3-4:15', 'R128', 248965255);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Aviation Accident Investigation', 'TuTh 1-2:50', 'Q3', 11564812);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Air Quality Engineering', 'TuTh 10:30-11:45', 'R15', 11564812);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Introductory Latin', 'MWF 3-4:15', 'R12', 248965255);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('American Political Parties', 'TuTh 2-3:15', '20 AVW', 619023588);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Social Cognition', 'Tu 6:30-8:40', 'R15', 159542516);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Perception', 'MTuWTh 3', 'Q3', 489221823);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Multivariate Analysis', 'TuTh 2-3:15', 'R15', 90873519);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Patent Law', 'F 1-2:50', 'R128', 90873519);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Urban Economics', 'MWF 11', '20 AVW', 489221823);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Organic Chemistry', 'TuTh 12:30-1:45', 'R12', 489221823);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Marketing Research', 'MW 10-11:15', '1320 DCL', 489221823);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Seminar in American Art', 'M 4', 'R15', 489221823);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Orbital Mechanics', 'MWF 8', '1320 DCL', 11564812);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Dairy Herd Management', 'TuTh 12:30-1:45', 'R128', 356187925);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Communication Networks', 'MW 9:30-10:45', '20 AVW', 141582651);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Optical Electronics', 'TuTh 12:30-1:45', 'R15', 254099823);
+INSERT INTO class (name,meets_at,room,prof_id) VALUES ('Intoduction to Math', 'TuTh 8-9:30', 'R128', 489221823);
+
+
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (112348546, 'Database Systems',8);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (115987938, 'Database Systems',7);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (348121549, 'Database Systems',7);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (322654189, 'Database Systems',3);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (552455318, 'Database Systems',10);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (455798411, 'Operating System Design',1);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (552455318, 'Operating System Design',5);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (567354612, 'Operating System Design',4);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (112348546, 'Operating System Design',3);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (115987938, 'Operating System Design',8);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (322654189, 'Operating System Design',9);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (567354612, 'Data Structures',2);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (552455318, 'Communication Networks',10);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (455798411, 'Optical Electronics',10);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (301221823, 'Perception',7);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (301221823, 'Social Cognition',7);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (301221823, 'American Political Parties',5);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (556784565, 'Air Quality Engineering',4);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (99354543, 'Patent Law',3);
+INSERT INTO enrolled(student_id,class_name,semester) VALUES (574489456, 'Urban Economics',5);
+
+
+CREATE DATABASE Lab9;
+USE Lab9;
+CREATE TABLE Department(
+    dept_id int(5) ,
+    dept_name VARCHAR(20) ,
+    PRIMARY KEY(dept_id) 
+    );
+
+CREATE TABLE Student(
+    student_id int(10)  ,
+    student_name VARCHAR(30) ,
+    major VARCHAR(30) ,
+    level VARCHAR(30) ,
+    age int(5) ,
+    PRIMARY KEY(student_id)
+    );
+CREATE TABLE Professor (
+    prof_id int(10) ,
+    prof_name VARCHAR(30) not null,
+    dept_id int(5),
+    PRIMARY KEY(prof_id)
+    );
+
+CREATE TABLE Class (
+    name VARCHAR(30),
+    meets_at VARCHAR(20),
+    room VARCHAR(30),
+    prof_id int(10),
+    PRIMARY KEY(name)
+    );
+   
+CREATE TABLE Enrolled(
+    student_id int(10), 
+    class_name VARCHAR(30),
+     semester int(5),
+     PRIMARY KEY(student_id,class_name,semester)
+     );
+
+ALTER TABLE Professor ADD FOREIGN KEY (dept_id) REFERENCES
+Department(dept_id);
+ALTER TABLE Class ADD FOREIGN KEY (prof_id) REFERENCES
+Professor(prof_id);
+
+ALTER TABLE Enrolled ADD FOREIGN KEY (student_id) REFERENCES
+Student(student_id);
+ALTER TABLE Enrolled ADD FOREIGN KEY (class_name) REFERENCES
+Class(name);
+
+1st ddl:
+
+SELECT s.student_name 
+FROM department as d 
+JOIN professor p on d.dept_id = p.dept_id 
+JOIN class c on p.prof_id = c.prof_id 
+JOIN enrolled e on c.name = e.class_name 
+JOIN student s on s.student_id = e.student_id 
+WHERE s.level = 'SR' AND d.dept_name = "Computer Science"
+
+2nd ddl:
+
+SELECT MAX(age) FROM
+(
+SELECT s.age from student as s where s.major ='history'
+union 
+SELECT s.age
+FROM  professor as p 
+join class as c  on p.prof_id = c.prof_id 
+join enrolled as e  on e.class_name = c.name
+join student as s ON  s.student_id = e.student_id
+ WHERE p.prof_name =' Michael Miller' 
+ 
+) as oldest
+
+3rd ddl:
+
+SELECT s.student_name, e.class_name
+from student as s 
+LEFT join enrolled as e on s.student_id = e.student_id
+
+4th ddl:
+SELECT c.name
+FROM class as c
+WHERE c.room = 'R128'
+OR c.name IN (SELECT e.class_name
+FROM enrolled e
+GROUP BY e.class_name
+HAVING COUNT(e.student_id) >= 5)
+
+5th ddl:
+
+SELECT p.prof_name , c.name
+FROM professor as p 
+LEFT JOIN class as c 
+on p.prof_id = c.prof_id
+WHERE c.name IS NULL
